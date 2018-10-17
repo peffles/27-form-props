@@ -3,7 +3,7 @@
 import React from 'react';
 import '../../style/main.scss';
 
-module.exports = class SearchForm extends React.Component {
+class SearchForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -62,3 +62,4 @@ module.exports = class SearchForm extends React.Component {
     );
   }
 };
+export default SearchForm;
